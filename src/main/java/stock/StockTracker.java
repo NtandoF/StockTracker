@@ -37,6 +37,7 @@ public class StockTracker {
      * @return
      */
     public int getStockLevel(Predicate<StockEntry> stockEntryPredicate ) {
+        // bafo
         int stockLevel = 0;
         for (StockEntry level: stockList) {
             if (stockEntryPredicate.test(level))
